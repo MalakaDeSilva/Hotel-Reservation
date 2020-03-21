@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbars="horizontal"
+    tools:context=".appHome">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="439dp"
+        android:layout_height="340dp"
+        android:contentDescription="@string/imgs"
+        android:src="@drawable/homepage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/bookRoomBtn"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+
+        android:layout_marginTop="28dp"
+        android:background="@drawable/roundedbtn"
+        android:onClick="roomHome"
+        android:text="Resereve a Room"
+        android:textColor="#471547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/bookTableBtn"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtn"
+        android:onClick="table"
+        android:text="Resereve a Table"
+        android:textColor="#471547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookRoomBtn" />
+
+    <Button
+        android:id="@+id/FoodBtn"
+        android:layout_width="316dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtn"
+        android:onClick="food"
+        android:text="@string/foodorder"
+        android:textColor="#471547"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookTableBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="283dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="216dp"
+        android:text="Greenwich"
+        android:textColor="#F5EDED"
+        android:textSize="36sp"
+        app:fontFamily="@font/frijole"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginLeft="256dp"
+        android:text="Greenwich"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="434dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="372dp"
+        android:background="@color/colorAccent"
+        android:text="@string/UPdate"
+        app:layout_constraintBottom_toTopOf="@+id/bookRoomBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/account"
+        android:onClick="account"
+        android:text="@string/UPdate"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

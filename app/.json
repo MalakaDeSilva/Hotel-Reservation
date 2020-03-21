@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "549671703069",
+    "firebase_url": "https://testapp-507c3.firebaseio.com",
+    "project_id": "testapp-507c3",
+    "storage_bucket": "testapp-507c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549671703069:android:061e1643c29e6b5c83acf4",
+        "android_client_info": {
+          "package_name": "com.example.GreenWich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549671703069-ngoj43ccqbuaq5uts3a8lp813ll3t3hn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.GreenWich",
+            "certificate_hash": "5a79043ec77378b0f6c1108f3df7caa0a99d82a8"
+          }
+        },
+        {
+          "client_id": "549671703069-4gvmqi27if1eacvfodd7pbc2kll300ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVr5KhkyIW0JVVQAfDO2xmgCqK0bezG3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549671703069-4gvmqi27if1eacvfodd7pbc2kll300ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

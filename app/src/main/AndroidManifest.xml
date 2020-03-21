@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.GreenWich">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Greenwich"
+        android:roundIcon="@mipmap/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.GreenWich.foodUpdate"></activity>
+        <activity android:name="com.example.GreenWich.food_list" />
+        <activity android:name="com.example.GreenWich.orderFood" />
+        <activity android:name="com.example.GreenWich.foodHome" />
+        <activity android:name="com.example.GreenWich.updateBookingT" />
+        <activity android:name="com.example.GreenWich.startBooking" />
+        <activity android:name="com.example.GreenWich.viewBookings" />
+        <activity android:name="com.example.GreenWich.start" />
+        <activity android:name="com.example.GreenWich.confirmedBooking" />
+        <activity android:name="com.example.GreenWich.Profile" />
+        <activity android:name="com.example.GreenWich.Delete" />
+        <activity android:name="com.example.GreenWich.ResetPassword" />
+        <activity android:name="com.example.GreenWich.Register" />
+        <activity android:name="com.example.GreenWich.Login" />
+        <activity android:name="com.example.GreenWich.appHome" />
+        <activity android:name="com.example.GreenWich.roomHome" />
+        <activity android:name="com.example.GreenWich.updateBooking" />
+        <activity android:name="com.example.GreenWich.roomBookList" />
+        <activity android:name="com.example.GreenWich.bookRoom" />
+        <activity android:name="com.example.GreenWich.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

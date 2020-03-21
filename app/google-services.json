@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788759850243",
+    "firebase_url": "https://hotel-reservation-99ea0.firebaseio.com",
+    "project_id": "hotel-reservation-99ea0",
+    "storage_bucket": "hotel-reservation-99ea0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788759850243:android:7bbbbb041a40292ad90d36",
+        "android_client_info": {
+          "package_name": "com.example.GreenWich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788759850243-qsb98hhp9gvos0p9ertas1i4laeelokv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.GreenWich",
+            "certificate_hash": "721a4c81427b1cad3ee660d91c1beaf72e12d442"
+          }
+        },
+        {
+          "client_id": "788759850243-cb86kq99p9kn9one5evr16qd87krgtfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAnLJqkngQJRMR1bzuGtTYopjoATGo0o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788759850243-cb86kq99p9kn9one5evr16qd87krgtfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
